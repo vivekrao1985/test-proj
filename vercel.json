@@ -4,11 +4,11 @@
     {
       "src": "nuxt.config.js",
       "use": "@nuxtjs/vercel-builder",
-      "config": {
-        "serverFiles": [
-          "api/**"
-        ]
-      }
+      "config": {}
+    },
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
     }
   ]
 }

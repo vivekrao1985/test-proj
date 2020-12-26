@@ -37,9 +37,6 @@ export default {
   axios: {
     baseURL: process.env.BASE_URL || 'http://localhost:3000/api'
   },
-  serverMiddleware: [
-    { path: '/api', handler: '~/api/index.js' }
-  ],
   /*
    ** Build configuration
    */
